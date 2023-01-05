@@ -1,9 +1,0 @@
-{
-  "chromeWebSecurity": false,
-  "numTestsKeptInMemory": 1,
-  "experimentalSessionSupport": true,
-  "env": {
-    "BASE_URL": "https://sandbox.dev.onfly.io:3000/",
-    "BASE_URL_HAGER": "https://hager-rc.onfly.io/"
-  }
-}
