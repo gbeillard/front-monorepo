@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_playlist_add_black_24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/SmartDownload/roll">
+            <g id="ic_playlist_add_black_24px" transform="translate(0.000000, 0.500000)">
+                <path d="M17.25,5.71428571 L-1.77635684e-15,5.71428571 L-1.77635684e-15,8.57142857 L17.25,8.57142857 L17.25,5.71428571 Z M17.25,3.55271368e-15 L-1.77635684e-15,3.55271368e-15 L-1.77635684e-15,2.85714286 L17.25,2.85714286 L17.25,3.55271368e-15 Z M23,11.4285714 L23,5.71428571 L20.125,5.71428571 L20.125,11.4285714 L20.125,14.2857143 L20.125,20 L23,20 L23,14.2857143 L23,11.4285714 Z M-1.77635684e-15,14.2857143 L11.5,14.2857143 L11.5,11.4285714 L-1.77635684e-15,11.4285714 L-1.77635684e-15,14.2857143 Z" id="Shape" fill="#06BAEC"></path>
+                <polyline id="Rectangle" stroke="#06BAEC" stroke-width="2" points="25 17 21.5 21 18 17"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

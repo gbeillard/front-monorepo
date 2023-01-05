@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "outDir": "Scripts/Dist",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "target": "es6",
+    "baseUrl": "./",
+    "types": [ "jest", "node"]
+  },
+  "exclude": [
+    "aspnet_client",
+    "bin",
+    "coverage",
+    "node_modules",
+    "obj",
+    "Properties",
+    "Scripts/bootstrap",
+    "Scripts/Dist",
+    "Scripts/handsontable",
+    "Scripts/jquery",
+    "Scripts/jqwidgets",
+    "Scripts/PdfJs",
+    "Scripts/tipped",
+    "cypress",
+    "Scripts/**/*.js",
+    "Scripts/**/*.jsx",
+  ]
+}

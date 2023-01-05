@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>noun_619454_cc</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="98.9420573%" y1="0%" x2="0.944661458%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4C98F3" offset="0%"></stop>
+            <stop stop-color="#06BAEC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="OnFLy---Content-request" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="00" transform="translate(-541.000000, -374.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-6" transform="translate(420.000000, 292.000000)">
+                <g id="noun_619454_cc" transform="translate(121.000000, 82.000000)">
+                    <g id="Group">
+                        <path d="M48,0 C74.492,0 96,21.508 96,48 C96,74.492 74.492,96 48,96 C21.508,96 0,74.492 0,48 C0,21.508 21.508,0 48,0 Z M48,3 C72.836,3 93,23.164 93,48 C93,72.836 72.836,93 48,93 C23.164,93 3,72.836 3,48 C3,23.164 23.164,3 48,3 Z M46.5,46.5 L46.5,33.5 C46.5,32.672 47.172,32 48,32 C48.828,32 49.5,32.672 49.5,33.5 L49.5,46.5 L62.5,46.5 C63.328,46.5 64,47.172 64,48 C64,48.828 63.328,49.5 62.5,49.5 L49.5,49.5 L49.5,62.5 C49.5,63.326 48.832,63.997 48.006,64 C48.002,64 47.998,64 47.994,64 C47.168,63.997 46.5,63.326 46.5,62.5 L46.5,49.5 L33.5,49.5 C32.672,49.5 32,48.828 32,48 C32,47.172 32.672,46.5 33.5,46.5 L46.5,46.5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

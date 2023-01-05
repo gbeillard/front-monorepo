@@ -1,0 +1,373 @@
+@import "../../../../../Content/variables.scss";
+
+#login-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $white;
+  //overflow-y: auto;
+  .logo-bg {
+    position: absolute;
+    width: 80%;
+    filter: blur(10px);
+    margin-top: -100px;
+    z-index: 1;
+  }
+
+  .panel-login {
+    width: 380px;
+    background: transparent;
+    border-radius: $small-radius;
+    box-shadow: 0 0 18px rgba($black, 0.15);
+    margin: 0;
+    z-index: 2;
+
+    .panel-body {
+      border-radius: $small-radius;
+      padding: 0;
+
+      .panel-header {
+        background: $gradient-blue;
+        border-radius: $small-radius $small-radius 0 0;
+        padding: $space-middle 0;
+
+        .userprofile {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 160px;
+          height: 160px;
+          background-color: $white;
+          border-radius: 50%;
+          margin: 0 auto $space-little auto;
+
+          .userpic {
+            display: block;
+            position: relative;
+            width: 80%;
+            height: 80%;
+            background-color: $white;
+            border-radius: 50%;
+            box-shadow: 0 0 18px rgba($black, 0.15);
+            margin: 0 auto;
+            padding: 10px;
+
+            .userpicimg {
+              width: 100%;
+              border-radius: 50%;
+            }
+          }
+
+          .username,
+          h4 {
+            display: none;
+            //color: $white;
+            //font-weight: 500;
+            //margin-top: 10px;
+          }
+        }
+
+        h2 {
+          color: $white;
+          font-size: 24px;
+          line-height: 28px;
+        }
+      }
+
+      .login-container {
+        transition: all 0.5s ease;
+
+        .lost-password {
+          position: relative;
+          padding: 0 0 $space-little 0;
+          z-index: 1;
+
+          .reset-password {
+            display: inline-block;
+            color: $acid-blue;
+            font-size: 12px;
+            cursor: pointer;
+
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+
+        .bottom-panel-body {
+          background-color: $white;
+          padding: $space-little $space-middle $space-little $space-middle;
+
+          .form-control {
+            padding: 0;
+          }
+
+          > div:nth-child(2) {
+            margin: 14px 0 2px 0 !important;
+          }
+
+          input {
+            height: 33px !important;
+          }
+        }
+
+        .bottom-panel-body-request {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: $white;
+          border-top: 1px solid $soft-grey;
+          border-radius: 0 0 $small-radius $small-radius;
+          padding: $space-little;
+
+          span {
+            color: $dark-grey;
+            font-size: 13px;
+          }
+
+          i,
+          svg {
+            color: $dark-grey;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .reset-password-container,
+      .reset-password-container-confirm {
+        transition: all 0.5s ease;
+
+        .panel-header {
+          padding: $space-little 0;
+
+          h2 {
+            font-size: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+          }
+        }
+
+        fieldset {
+          background-color: $white;
+          border-radius: 0 0 $small-radius $small-radius !important;
+          padding: 0;
+
+          .form-group {
+            margin: 0;
+            padding: 0 $space-middle $space-middle $space-middle;
+
+            > div {
+              margin: 14px 0 2px 0 !important;
+            }
+
+            input {
+              height: 33px !important;
+            }
+          }
+
+          .btn-raised {
+            background-color: #00ca85 !important;
+            box-shadow: none !important;
+            border-radius: 0 0 $small-radius $small-radius !important;
+            padding: $space-little !important;
+
+            button {
+              background-color: #00ca85 !important;
+              color: $white !important;
+              font-size: 15px !important;
+              font-weight: 500 !important;
+              text-transform: uppercase !important;
+            }
+
+            &:hover,
+            &:hover div div {
+              background-color: darken(#00ca85, 3%) !important;
+            }
+          }
+        }
+
+        .reset-password {
+          display: inline-block;
+          position: absolute;
+          color: $acid-blue;
+          font-size: 12px;
+          cursor: pointer;
+          margin: 7px 0 0 10px;
+        }
+      }
+
+      .request-access-container {
+        transition: all 0.5s ease;
+
+        .panel-header {
+          padding: $space-little 0;
+
+          h2 {
+            font-size: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+          }
+        }
+
+        .logos-inline {
+          background-color: $white;
+          text-align: center;
+          padding: $space-very-little 0;
+
+          img {
+            display: inline-block;
+            vertical-align: middle;
+
+            &:first-of-type {
+              height: 80px;
+            }
+
+            &:last-of-type {
+              height: 35px;
+            }
+          }
+
+          i,
+          svg {
+            display: inline-block;
+            vertical-align: middle;
+            color: $grey;
+            margin: 0 $space-middle;
+          }
+        }
+
+        .border {
+          display: flex;
+          align-items: center;
+          height: 10px;
+
+          .border-left {
+            width: 6px;
+            height: 10px;
+            background: url(../../../../../Content/images/hole-left.png) no-repeat left center;
+          }
+
+          .border-center {
+            flex-grow: 1;
+            height: 10px;
+            background: $white url(../../../../../Content/images/hole-dot.png) repeat-x left center;
+          }
+
+          .border-right {
+            width: 6px;
+            height: 10px;
+            background: url(../../../../../Content/images/hole-right.png) no-repeat right center;
+          }
+        }
+
+        .form-group {
+          background-color: $white;
+          margin: 0;
+          padding: 0 $space-middle $space-middle $space-middle;
+
+          * {
+            box-shadow: none;
+            padding: 0;
+          }
+
+          > div {
+            width: 100% !important;
+            margin: 14px 0 2px 0 !important;
+          }
+
+          input {
+            height: 33px !important;
+          }
+        }
+
+        .btn-raised {
+          background-color: #00ca85 !important;
+          box-shadow: none !important;
+          border-radius: 0 0 $small-radius $small-radius !important;
+          padding: $space-little !important;
+
+          button {
+            background-color: #00ca85 !important;
+            color: $white !important;
+            font-size: 15px !important;
+            font-weight: 500 !important;
+            text-transform: uppercase !important;
+          }
+
+          &:hover,
+          &:hover div div {
+            background-color: darken(#00ca85, 3%) !important;
+          }
+        }
+
+        .reset-password {
+          display: inline-block;
+          position: absolute;
+          color: $acid-blue;
+          font-size: 12px;
+          cursor: pointer;
+          margin: 7px 0 0 10px;
+        }
+      }
+    }
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+
+  .text-right {
+    text-align: right !important;
+  }
+
+  .panel {
+    border: 0;
+
+    input {
+      box-sizing: border-box;
+    }
+  }
+
+  button {
+    text-transform: none;
+  }
+
+  .btn-content {
+    text-align: center;
+  }
+
+  .btn-raised {
+    span {
+      font-weight: 500;
+    }
+  }
+
+  fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    min-width: 0;
+  }
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px $white inset;
+    -webkit-text-fill-color: $dark-grey !important;
+  }
+}
+
+@media (max-width: 560px) {
+  #login-page-wrapper {
+    .panel-login .panel-body .panel-header .userprofile {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

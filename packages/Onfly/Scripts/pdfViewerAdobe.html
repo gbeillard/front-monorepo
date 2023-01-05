@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Pdf Viewer</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <style>
+    body {
+      margin: 0 !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="adobe-dc-view"></div>
+  <script type="text/javascript">
+
+            document.addEventListener("adobe_dc_view_sdk.ready", function () {
+                const params = new URLSearchParams(window.location.search);
+                const clientId = params.get('clientId');
+                if (!clientId) {
+                    console.error('clientId is missing');
+                }
+
+                const url = params.get('url');
+                if (!url) {
+                    console.error('url is missing');
+                }
+
+                const filename = params.get('filename') ?? 'PDF Viewer';
+
+                var adobeDCView = new AdobeDC.View({ clientId: clientId, divId: "adobe-dc-view" });
+                adobeDCView.previewFile(
+                    {
+                        content: { location: { url: url } },
+                        metaData: { fileName: filename }
+                    });
+            });
+  </script>
+</body>
+</html> 

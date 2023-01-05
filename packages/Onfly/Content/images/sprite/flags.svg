@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="98px" viewBox="0 0 14 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>flags</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="7" cy="7" r="7"></circle>
+        <circle id="path-3" cx="7" cy="7" r="7"></circle>
+        <circle id="path-5" cx="7" cy="7" r="7"></circle>
+        <circle id="path-7" cx="7" cy="7" r="7"></circle>
+        <path d="M15.75,7.35 L31.1337209,7.35 L31.1337209,14.7 L15.75,7.35 Z M15.75,7.35 L15.75,14.7 L0.36627907,14.7 L15.75,7.35 Z M15.75,7.35 L0.36627907,7.35 L0.36627907,0 L15.75,7.35 Z M15.75,7.35 L15.75,0 L31.1337209,0 L15.75,7.35 Z" id="path-9"></path>
+        <circle id="path-11" cx="7" cy="7" r="7"></circle>
+        <circle id="path-13" cx="7" cy="7" r="7"></circle>
+        <circle id="path-15" cx="7" cy="7" r="7"></circle>
+        <circle id="path-17" cx="7" cy="7" r="7"></circle>
+        <circle id="path-19" cx="7" cy="7" r="7"></circle>
+        <circle id="path-21" cx="7" cy="7" r="7"></circle>
+        <circle id="path-23" cx="7" cy="7" r="7"></circle>
+        <circle id="path-25" cx="7" cy="7" r="7"></circle>
+        <circle id="path-27" cx="7" cy="7" r="7"></circle>
+        <circle id="path-29" cx="7" cy="7" r="7"></circle>
+        <circle id="path-31" cx="7" cy="7" r="7"></circle>
+        <circle id="path-33" cx="7" cy="7" r="7"></circle>
+        <circle id="path-35" cx="7" cy="7" r="7"></circle>
+        <circle id="path-37" cx="5" cy="7" r="3"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flags">
+            <g id="ic_french">
+                <g id="Oval-5" fill="#D8D8D8">
+                    <circle id="path-1" cx="7" cy="7" r="7"></circle>
+                </g>
+                <g id="Rectangle-6-Clipped">
+                    <g>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <rect id="Rectangle-6" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="0" width="14" height="14"></rect>
+                    </g>
+                </g>
+                <g id="Rectangle-6-Copy-Clipped">
+                    <g>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="path-3"></g>
+                        <rect id="Rectangle-6-Copy" fill="#EB4658" mask="url(#mask-4)" x="10" y="0" width="4" height="14"></rect>
+                    </g>
+                </g>
+                <g id="Rectangle-6-Copy-2-Clipped">
+                    <g>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="path-5"></g>
+                        <rect id="Rectangle-6-Copy-2" fill="#4E6DE2" mask="url(#mask-6)" x="0" y="0" width="4" height="14"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="ic_english" transform="translate(0.000000, 14.000000)">
+                <g id="Oval-5" fill="#D8D8D8">
+                    <circle id="path-1" cx="7" cy="7" r="7"></circle>
+                </g>
+                <g id="Flag_of_the_United_Kingdom-Clipped">
+                    <g>
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="path-7"></g>
+                        <g id="Flag_of_the_United_Kingdom" mask="url(#mask-8)">
+                            <g transform="translate(-10.000000, 0.000000)" id="Group">
+                                <g transform="translate(0.900000, 0.000000)">
+                                    <g>
+                                        <polygon id="Shape" fill="#00247D" points="9.1 0 9.1 14 23.1 14 23.1 0"></polygon>
+                                        <path d="M0.7,0 L31.5,14.7 M31.5,0 L0.7,14.7" id="Shape" stroke="#FFFFFF" stroke-width="4" fill="#000000" fill-rule="nonzero"></path>
+                                        <g id="Clipped">
+                                            <g id="Shape-Clipped">
+                                                <g>
+                                                    <mask id="mask-10" fill="white">
+                                                        <use xlink:href="#path-9"></use>
+                                                    </mask>
+                                                    <g id="path-9"></g>
+                                                    <path d="M0.36627907,0 L31.1337209,14.7 M31.1337209,0 L0.36627907,14.7" id="Shape" stroke="#CF142B" stroke-width="2" fill="#000000" fill-rule="nonzero" mask="url(#mask-10)"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <path d="M16.1,0 L16.1,14.7 M0.7,7.35 L31.5,7.35" id="Shape" stroke="#FFFFFF" stroke-width="4" fill="#000000" fill-rule="nonzero"></path>
+                                        <path d="M16.1,0 L16.1,14.7 M0.7,7.35 L31.5,7.35" id="Shape" stroke="#CF142B" stroke-width="2" fill="#000000" fill-rule="nonzero"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="ic_spanish" transform="translate(0.000000, 28.000000)">
+                <g id="Oval-5" fill="#D8D8D8">
+                    <circle id="path-1" cx="7" cy="7" r="7"></circle>
+                </g>
+                <g id="Rectangle-6-Clipped">
+                    <g>
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="path-11"></g>
+                        <rect id="Rectangle-6" fill="#EB4658" mask="url(#mask-12)" x="0" y="0" width="15" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Rectangle-6-Copy-Clipped">
+                    <g>
+                        <mask id="mask-14" fill="white">
+                            <use xlink:href="#path-13"></use>
+                        </mask>
+                        <g id="path-13"></g>
+                        <rect id="Rectangle-6-Copy" fill="#F8E71C" mask="url(#mask-14)" x="0" y="4" width="15" height="6"></rect>
+                    </g>
+                </g>
+                <g id="Rectangle-6-Copy-2-Clipped">
+                    <g>
+                        <mask id="mask-16" fill="white">
+                            <use xlink:href="#path-15"></use>
+                        </mask>
+                        <g id="path-15"></g>
+                        <rect id="Rectangle-6-Copy-2" fill="#EB4658" mask="url(#mask-16)" x="0" y="10" width="15" height="4"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="ic_german" transform="translate(0.000000, 42.000000)">
+                <g id="Oval-5" fill="#D8D8D8">
+                    <circle id="path-1" cx="7" cy="7" r="7"></circle>
+                </g>
+                <g id="Rectangle-6-Clipped">
+                    <g>
+                        <mask id="mask-18" fill="white">
+                            <use xlink:href="#path-17"></use>
+                        </mask>
+                        <g id="path-17"></g>
+                        <rect id="Rectangle-6" fill="#3A3A3A" mask="url(#mask-18)" x="0" y="0" width="14" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Rectangle-6-Copy-2-Clipped">
+                    <g>
+                        <mask id="mask-20" fill="white">
+                            <use xlink:href="#path-19"></use>
+                        </mask>
+                        <g id="path-19"></g>
+                        <rect id="Rectangle-6-Copy-2" fill="#F8E71C" mask="url(#mask-20)" x="0" y="10" width="14" height="4"></rect>
+                    </g>
+                </g>
+                <g id="Rectangle-6-Copy-Clipped">
+                    <g>
+                        <mask id="mask-22" fill="white">
+                            <use xlink:href="#path-21"></use>
+                        </mask>
+                        <g id="path-21"></g>
+                        <rect id="Rectangle-6-Copy" fill="#EB4658" mask="url(#mask-22)" x="0" y="4" width="14" height="6"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="ic_italian" transform="translate(0.000000, 56.000000)">
+                <g id="Oval-5" fill="#D8D8D8">
+                    <circle id="path-1" cx="7" cy="7" r="7"></circle>
+                </g>
+                <g id="Rectangle-6-Clipped">
+                    <g>
+                        <mask id="mask-24" fill="white">
+                            <use xlink:href="#path-23"></use>
+                        </mask>
+                        <g id="path-23"></g>
+                        <rect id="Rectangle-6" fill="#FFFFFF" mask="url(#mask-24)" x="0" y="0" width="14" height="14"></rect>
+                    </g>
+                </g>
+                <g id="Rectangle-6-Copy-Clipped">
+                    <g>
+                        <mask id="mask-26" fill="white">
+                            <use xlink:href="#path-25"></use>
+                        </mask>
+                        <g id="path-25"></g>
+                        <rect id="Rectangle-6-Copy" fill="#EB4658" mask="url(#mask-26)" x="10" y="0" width="4" height="14"></rect>
+                    </g>
+                </g>
+                <g id="Rectangle-6-Copy-2-Clipped">
+                    <g>
+                        <mask id="mask-28" fill="white">
+                            <use xlink:href="#path-27"></use>
+                        </mask>
+                        <g id="path-27"></g>
+                        <rect id="Rectangle-6-Copy-2" fill="#4CAF50" mask="url(#mask-28)" x="0" y="0" width="4" height="14"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="ic_dutch" transform="translate(0.000000, 70.000000)">
+                <g id="flag" transform="translate(7.000000, 7.000000) rotate(-90.000000) translate(-7.000000, -7.000000) ">
+                    <g id="Oval-5" fill="#D8D8D8">
+                        <circle id="path-1" cx="7" cy="7" r="7"></circle>
+                    </g>
+                    <g id="Rectangle-6-Clipped">
+                        <g>
+                            <mask id="mask-30" fill="white">
+                                <use xlink:href="#path-29"></use>
+                            </mask>
+                            <g id="path-29"></g>
+                            <rect id="Rectangle-6" fill="#FFFFFF" mask="url(#mask-30)" x="0" y="0" width="14" height="15"></rect>
+                        </g>
+                    </g>
+                    <g id="Rectangle-6-Copy-Clipped">
+                        <g>
+                            <mask id="mask-32" fill="white">
+                                <use xlink:href="#path-31"></use>
+                            </mask>
+                            <g id="path-31"></g>
+                            <rect id="Rectangle-6-Copy" fill="#EB4658" mask="url(#mask-32)" x="10" y="0" width="4" height="14"></rect>
+                        </g>
+                    </g>
+                    <g id="Rectangle-6-Copy-2-Clipped">
+                        <g>
+                            <mask id="mask-34" fill="white">
+                                <use xlink:href="#path-33"></use>
+                            </mask>
+                            <g id="path-33"></g>
+                            <rect id="Rectangle-6-Copy-2" fill="#4E6DE2" mask="url(#mask-34)" x="0" y="0" width="4" height="14"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="flag" transform="translate(0.000000, 84.000000)">
+                <mask id="mask-36" fill="white">
+                    <use xlink:href="#path-35"></use>
+                </mask>
+                <use id="Oval-5" fill="#D8D8D8" xlink:href="#path-35"></use>
+                <polygon id="Rectangle-6" fill="#4CAF50" mask="url(#mask-36)" points="-1 0 5 0 5 15 -1 15"></polygon>
+                <rect id="Rectangle-6-Copy-3" fill="#EB4658" mask="url(#mask-36)" x="5" y="0" width="10" height="15"></rect>
+                <mask id="mask-38" fill="white">
+                    <use xlink:href="#path-37"></use>
+                </mask>
+                <use id="Oval-5" stroke="#F8E71C" xlink:href="#path-37"></use>
+                <polygon id="Rectangle-7" fill="#F8E71C" mask="url(#mask-38)" points="4 6 6 6 6 7 4 7"></polygon>
+                <path d="M4,7 C4,7.55228475 4.44771525,8 5,8 C5.55228475,8 6,7.55228475 6,7" id="Oval-6" fill="#F8E71C" mask="url(#mask-38)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

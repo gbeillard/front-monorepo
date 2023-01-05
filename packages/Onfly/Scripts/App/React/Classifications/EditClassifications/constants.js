@@ -1,0 +1,5 @@
+export const EDITED_PROP = {
+  NONE: 'EDITED_PROP/NONE',
+  NAME: 'EDITED_PROP/NAME',
+  CODE: 'EDITED_PROP/CODE',
+};

@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-hj-ignore-attributes>
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TV9232M');
+  </script>
+  <!-- End Google Tag Manager -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link href="/Content/images/favicon.png" rel="icon" type="image/png" />
+
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
+  <script type="text/javascript" src="/Scripts/bodymovin_light_4.13.0.min.js"></script>
+
+  <title>BIM&CO Onfly</title>
+  <!-- FullStory -->
+  <script>
+        window['_fs_debug'] = false;
+        window['_fs_host'] = 'fullstory.com';
+        window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
+        window['_fs_org'] = 'SW19V';
+        window['_fs_namespace'] = 'FS';
+        (function(m,n,e,t,l,o,g,y){
+        if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+        g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+        o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
+        y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+        g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+        g.anonymize=function(){g.identify(!!0)};
+        g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+        g.log = function(a,b){g("log",[a,b])};
+        g.consent=function(a){g("consent",!arguments.length||a)};
+        g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+        g.clearUserCookie=function(){};
+        g._w={};y='XMLHttpRequest';g._w[y]=m[y];y='fetch';g._w[y]=m[y];
+        if(m[y])m[y]=function(){return g._w[y].apply(this,arguments)};
+        g._v="1.2.0";
+        })(window,document,window['_fs_namespace'],'script','user');
+  </script>
+</head>
+
+<body style="background-color:#ededed">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TV9232M" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="loader-wait-container" style="display: flex;justify-content: center;align-items: center;position: fixed;top: 0;bottom: 0;left: 0;right: 0;width: 100%;height: 100%;transition: all .2s;">
+    <div style="width: 380px;height: 300px;background-color:#fafafa;border-radius: 4px;box-shadow: 0 0 18px rgba(33,33,33,.15);display: flex;justify-content: center;align-items: center">
+      <div id="loader-wait" style="width: 220px;height: 190px;margin:0"></div>
+    </div>
+  </div>
+  <div id="container"></div>
+
+  <script type="text/javascript">
+        var isSupported = false;
+
+        var ua = navigator.userAgent;
+        var M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+        var version = parseInt(M[2]);
+
+        var isChrome = /Chrome/.test(ua) && /Google Inc/.test(navigator.vendor);
+        if (isChrome) {
+            if (version >= 58) { isSupported = true; }
+        }
+
+        var isFirefox = typeof InstallTrigger !== 'undefined';
+        if (isFirefox) {
+            if (version >= 60) { isSupported = true; }
+        }
+
+        if (isSupported) {
+            bodymovin.setQuality('low');
+            var anim = bodymovin.loadAnimation({
+                container: document.getElementById('loader-wait'),
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: '/Content/images/lottie/rocketLaunch.min.json',
+                rendererSettings: {
+                    progressiveLoad: true
+                }
+            });
+        }
+        else {
+            document.getElementById('loader-wait').innerHTML = "<h1>Sorry, your web browser is not compatible with Onfly.</h1> <br /> To have a great experience, please use at least Firefox 60.0.2 ESR or Chrome 58.";
+        }
+  </script>
+
+  <script type="text/javascript" src="/Scripts/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxcore.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxdata.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxscrollbar.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxdatatable.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxbuttons.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxdropdownlist.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxlistbox.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxtree.js"></script>
+  <script type="text/javascript" src="/Scripts/jqwidgets/jqxtreegrid.js"></script>
+
+  <script type="text/javascript" src="/Scripts/handsontable/handsontable.full.min.js"></script>
+  <script type="text/javascript" src="/Scripts/handsontable/languages.min.js"></script>
+
+  <!-- Crisp -->
+  <script type="text/javascript" src="/Scripts/crisp.js"></script>
+  <script type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "2879387d-1e17-45e1-8cab-2802546a2c7e"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+</body>
+</html>

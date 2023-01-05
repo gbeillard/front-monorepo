@@ -1,0 +1,28 @@
+export const OPEN_MODAL_CREATE_PROPERTY = 'OPEN_MODAL_CREATE_PROPERTY';
+export const CLOSE_MODAL_CREATE_PROPERTY = 'CLOSE_MODAL_CREATE_PROPERTY';
+export const LOAD_PROPERTY = 'LOAD_PROPERTY';
+export const LOAD_PROPERTY_DOMAINS = 'LOAD_PROPERTY_DOMAINS';
+export const LOAD_PROPERTY_UNITS = 'LOAD_PROPERTY_UNITS';
+export const LOAD_PROPERTY_DATA_TYPES = 'LOAD_PROPERTY_DATA_TYPES';
+export const LOAD_PROPERTY_EDIT_TYPES = 'LOAD_PROPERTY_EDIT_TYPES';
+export const LOAD_PROPERTY_PARAMETER_TYPES = 'LOAD_PROPERTY_PARAMETER_TYPES';
+export const SEND_PROPERTY_REQUEST = 'SEND_PROPERTY_REQUEST';
+export const SEND_PROPERTY_REQUEST_SUCCESS = 'SEND_PROPERTY_REQUEST_SUCCESS';
+export const SEND_PROPERTY_REQUEST_ERROR = 'SEND_PROPERTY_REQUEST_ERROR';
+
+export const openModalCreateProperty = () => ({
+  type: OPEN_MODAL_CREATE_PROPERTY,
+});
+
+export const sendPropertyRequest = () => ({
+  type: SEND_PROPERTY_REQUEST,
+});
+
+export const sendPropertyRequestSuccess = () => ({
+  type: SEND_PROPERTY_REQUEST_SUCCESS,
+});
+
+export const sendPropertyRequestError = (error) => ({
+  type: SEND_PROPERTY_REQUEST_ERROR,
+  error,
+});

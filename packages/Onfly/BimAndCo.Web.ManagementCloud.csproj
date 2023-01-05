@@ -1,0 +1,192 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <Configurations>Debug;Release;PREPROD;PREPROD_BACENGINE;PROD_AWS;PROD_Default;PROD_Synchro;PROD_Indexation;PROD_DataConsequences;PROD_ModelerPreview;PROD_ModelerSynchro;PROD_ConvertAll;PROD_V2;PROD_V2_RC;TEST;UnitTest</Configurations>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+    <IsPackable>true</IsPackable>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutputPath>.\bin</OutputPath>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PROD_V2|x64'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <OutputPath>.\bin</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PROD_V2_RC|x64'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <OutputPath>.\bin</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PREPROD|x64'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <OutputPath>.\bin</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='PREPROD_BACENGINE|x64'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <OutputPath>.\bin</OutputPath>
+  </PropertyGroup>
+  <Target Name="BeforeBuild">
+    <ItemGroup>
+      <SonarQubeSetting Include="sonar.exclusions">
+        <Value>**\index_dev.js, Scripts\Dist\*.js, Scripts\handsontable\*.js, Scripts\jq*, Scripts\**\jquery*, Scripts\**\react_jq*, **\*.jsx</Value>
+      </SonarQubeSetting>
+    </ItemGroup>
+  </Target>
+  <ItemGroup>
+    <Compile Remove="node_modules\**" />
+    <EmbeddedResource Remove="node_modules\**" />
+    <None Remove="node_modules\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Scripts\App\React\Collections\Body.tsx" />
+    <None Remove="Scripts\App\React\Collections\CollectionsList.tsx" />
+    <None Remove="Scripts\App\React\Collections\Component.tsx" />
+    <None Remove="Scripts\App\React\Collections\Header.tsx" />
+    <None Remove="Scripts\App\React\Collections\index.tsx" />
+    <None Remove="Scripts\App\React\CommonsElements\Loader.tsx" />
+    <None Remove="Scripts\App\React\CommonsElements\PageContentContainer.tsx" />
+    <None Remove="Scripts\App\React\CommonsElements\ToolBar.tsx" />
+    <None Remove="Scripts\App\React\ObjectEditor\Properties\Manager\Body.tsx" />
+    <None Remove="Scripts\App\React\ObjectEditor\Properties\Manager\Component.tsx" />
+    <None Remove="Scripts\App\React\ObjectEditor\EmptyStates\emptyStates.tsx" />
+    <None Remove="Scripts\App\React\ObjectEditor\EmptyStates\index.tsx" />
+    <None Remove="Scripts\App\React\ObjectEditor\Properties\Manager\EmptyStates\emptyStates.tsx" />
+    <None Remove="Scripts\App\React\ObjectEditor\Properties\Manager\EmptyStates\index.tsx" />
+    <None Remove="Scripts\App\React\ObjectEditor\Properties\Manager\Header.tsx" />
+    <None Remove="Scripts\App\React\ObjectEditor\Properties\Manager\Tables\index.tsx" />
+    <None Remove="Scripts\App\React\PropertiesSets\Details\Body.tsx" />
+    <None Remove="Scripts\App\React\PropertiesSets\Details\component.tsx" />
+    <None Remove="Scripts\App\React\PropertiesSets\Details\DropdownSubsets.tsx" />
+    <None Remove="Scripts\App\React\PropertiesSets\Details\Header.tsx" />
+    <None Remove="Scripts\App\React\PropertiesSets\Details\PropertiesList.tsx" />
+    <None Remove="Scripts\App\React\EmptyStates\emptyStates.tsx" />
+    <None Remove="Scripts\App\React\EmptyStates\index.tsx" />
+    <None Remove="Scripts\App\React\PropertiesSets\Details\PropertiesToolbar.tsx" />
+    <None Remove="Scripts\App\React\PropertiesSets\EmptyStates\emptyStates.tsx" />
+    <None Remove="Scripts\App\React\PropertiesSets\EmptyStates\index.tsx" />
+    <None Remove="Scripts\App\Reducers\properties-sets\api.ts" />
+    <None Remove="Scripts\App\Reducers\properties-sets\saga.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\emptyStates.tsx" />
+    <None Remove="Scripts\App\Reducers\Sets\Properties\actions.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Properties\api.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Properties\reducer.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Properties\saga.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Properties\selectors.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Properties\utils.js" />
+    <None Remove="Scripts\App\Reducers\Sets\Subsets\actions.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Subsets\api.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Subsets\reducer.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Subsets\saga.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Subsets\selectors.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Subsets\types.ts" />
+    <None Remove="Scripts\App\Reducers\Sets\Subsets\utils.js" />
+    <None Remove="Scripts\App\Reducers\Sets\types.ts" />
+    <None Remove="Scripts\App\Reducers\Users\Invitations\actions.ts" />
+    <None Remove="Scripts\App\Reducers\Users\Invitations\sagas.ts" />
+    <None Remove="Scripts\App\Utils\utilsResources.tsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\App\React\Collections\Body.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\Collections\Component.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\Collections\Header.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\Collections\index.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\Collections\CollectionsList.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\CommonsElements\PageContentContainer.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\CommonsElements\Loader.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\CommonsElements\Toolbar.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\ObjectEditor\Properties\Manager\Component.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\ObjectEditor\EmptyStates\emptyStates.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\ObjectEditor\EmptyStates\index.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\ObjectEditor\Properties\Manager\Body.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\ObjectEditor\Properties\Manager\EmptyStates\emptyStates.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\ObjectEditor\Properties\Manager\EmptyStates\index.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\ObjectEditor\Properties\Manager\Header.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\ObjectEditor\Properties\Manager\Tables\index.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\PropertiesSets\Details\PropertiesToolbar.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\PropertiesSets\Details\Body.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\PropertiesSets\Details\DropdownSubsets.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\PropertiesSets\Details\Header.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\PropertiesSets\Details\PropertiesList.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\PropertiesSets\Details\Component.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\EmptyStates\emptyStates.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\EmptyStates\index.tsx" />
+    <TypeScriptCompile Include="Scripts\App\React\PropertiesSets\EmptyStates\emptyStates.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\React\PropertiesSets\EmptyStates\index.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\Reducers\properties-sets\api.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\properties-sets\saga.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Properties\actions.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Properties\api.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Properties\selectors.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Properties\saga.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Properties\reducer.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Properties\types.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Properties\utils.js" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Subsets\actions.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Subsets\api.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Subsets\reducer.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Subsets\saga.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Subsets\selectors.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Subsets\types.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Sets\Subsets\utils.js">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Scripts\App\Reducers\Users\Invitations\actions.ts" />
+    <TypeScriptCompile Include="Scripts\App\Reducers\Users\Invitations\sagas.ts" />
+    <TypeScriptCompile Include="Scripts\App\Utils\utilsResources.tsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Scripts\Dist\**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Content\**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

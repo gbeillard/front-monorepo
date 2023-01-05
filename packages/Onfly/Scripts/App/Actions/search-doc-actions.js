@@ -1,0 +1,4 @@
+// Users
+export const SEARCH_DOC_SUCCESS = 'SEARCH_DOC_SUCCESS';
+export const LOAD_MORE_DOC = 'LOAD_MORE_DOC';
+export const REFRESH_DOC_REQUEST = 'REFRESH_DOC_REQUEST';

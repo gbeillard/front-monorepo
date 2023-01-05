@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "front-monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.3.0"
+  }
+}

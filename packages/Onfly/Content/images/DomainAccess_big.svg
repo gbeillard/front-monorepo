@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="124px" viewBox="0 0 101 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>DomainAccess_big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="98.9420573%" y1="0%" x2="0.944661458%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4C98F3" offset="0%"></stop>
+            <stop stop-color="#06BAEC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="00_Manage-Users---DOMAIN-NAMES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-700.000000, -239.000000)">
+        <g id="DomainAccess_big" transform="translate(703.000000, 243.000000)">
+            <path d="M47.5,-1.6412173 L96.5,20.1157205 L96.5,52.7272727 C96.5,82.7975165 75.6570805,110.675003 47.855503,117.457264 L47.5,117.54399 L47.144497,117.457264 C19.3429195,110.675003 -1.5,82.7975165 -1.5,52.7272727 L-1.5,20.1157205 L47.5,-1.6412173 Z" id="Shape" stroke="url(#linearGradient-1)" stroke-width="3" fill-rule="nonzero"></path>
+            <path d="M68.5365366,41.1735923 C59.7353848,50.3268282 50.9253217,59.4204362 42.1200728,68.5740826 L32.8875486,60.8902847 C32.239185,60.4010489 31.3179556,60.5309781 30.8296855,61.1805215 C30.3414155,61.8299623 30.4710882,62.7531166 31.1193494,63.242455 L41.3883335,71.7051098 C41.9793379,72.1522674 42.8105339,72.086687 43.3243083,71.5523967 C52.4274153,62.085114 61.5326733,52.6767406 70.6400822,43.2049421 C71.2137764,42.6344236 71.2171565,41.7060352 70.6477642,41.1312062 C70.3530814,40.8336827 69.9451142,40.6766592 69.527314,40.7001614 C69.1483337,40.7232531 68.7930141,40.8930027 68.5365366,41.1735923 Z" id="Fill-1" fill="url(#linearGradient-1)" transform="translate(50.803241, 56.349598) rotate(2.000000) translate(-50.803241, -56.349598) "></path>
+        </g>
+    </g>
+</svg>

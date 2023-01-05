@@ -1,0 +1,16 @@
+﻿{
+  "extends": [
+    "@bim-co/eslint-config-bimandco"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": [ "rollup.config.js", "build", "next-env.d.ts", "jest.config.ts" ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [ "." ]
+      }
+    }
+  }
+}
