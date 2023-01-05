@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "target": "es5",
+      "lib": ["es2020", "dom"],
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noEmit": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "noErrorTruncation": false,
+      "allowJs": true,
+      "paths": {
+        "@bim-co/componentui-foundation": ["./packages/ComponentUI-Foundation/components"],
+        "@bim-co/componentui-foundation/*": ["./packages/Onfly-Connect/components/*"],
+      },
+    },
+    "exclude": ["**/.*/", "**/build", "**/node_modules"]
+  }
